@@ -1,4 +1,53 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 1.5rem 3.5rem;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-logo {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 0.5rem;
+}
+
+.nav-logo-text {
+  font-size: 2.5rem;
+  color: #61DAFB;
+  margin-right: auto;
+}
+
+.toggler {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.toggler-slider {
+  width: 3rem;
+  height: 1.5rem;
+  background-color: black;
+  border: 0.1rem solid black;
+  border-radius: 1rem;
+  margin: 0 0.2rem 0 0.2rem;
+  box-sizing: content-box; 
+}
+
+.toggler-slider-circle {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  border-radius: 1rem;
+  float: left;
+}
+
+
 
