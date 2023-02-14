@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -92,9 +97,11 @@ main {
   padding: 5rem 6rem;
   background-image: url("../public/images/reactjs-logo-light.svg");
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: right 15vh;
   background-size: 13rem;
   color: #2B283A;
+  height: 100vh;
+  overflow-y:auto;
 }
 
 /* for dark mode*/
@@ -112,6 +119,7 @@ main.dark {
   padding: 2rem 3rem;
   font-size: 1.5rem;
   font-weight: 600;
+  max-width: 35rem;
 }
 
 .main-facts ::marker {
@@ -119,7 +127,6 @@ main.dark {
 }
 
 .main-facts>li {
-  letter-spacing: 0.1rem;
   line-height: 3rem;
 }
 
