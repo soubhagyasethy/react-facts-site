@@ -12,6 +12,11 @@ nav {
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
 
+/* for dark mode*/
+nav.dark {
+  background-color: #21222A;
+}
+
 .nav-logo {
   height: 3rem;
   width: 3rem;
@@ -27,36 +32,76 @@ nav {
 .toggler {
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
 .toggler-slider {
-  width: 3rem;
-  height: 1.5rem;
+  width: 2.6rem;
+  height: 1.2rem;
   background-color: black;
-  border: 0.1rem solid black;
+  border: 0.11rem solid black;
   border-radius: 1rem;
-  margin: 0 0.2rem 0 0.2rem;
+  margin: 0 0.3rem;
   box-sizing: content-box; 
 }
 
+/* for dark mode*/
+nav.dark .toggler-slider {
+  background-color: white;
+  border: 0.11rem solid white;
+}
+
 .toggler-slider-circle {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.3rem;
+  height: 1.2rem;
   background-color: white;
   border-radius: 1rem;
   float: left;
 }
 
+/* for dark mode*/
+nav.dark .toggler-slider-circle {
+  background-color: black ;
+  float: right;
+}
+
+.toggler-light {
+  color: black;
+  margin-bottom: 0.1rem;
+}
+
+/* for dark mode*/
+nav.dark .toggler-light {
+  color: #918E9B;
+}
+
+.toggler-dark {
+  color: #D5D4D8;
+  margin-bottom: 0.1rem;
+}
+
+/* for dark mode*/
+nav.dark .toggler-dark {
+  color: white;
+} 
+
+
 /* Main component */
 main {
   padding: 5rem 6rem;
-  background-image: url(../public/images/reactjs-logo2.svg);
+  background-image: url("../public/images/reactjs-logo-light.svg");
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 13rem;
   color: #2B283A;
+}
+
+/* for dark mode*/
+main.dark {
+  background-image: url("../public/images/reactjs-logo-dark.svg"); 
+  background-color: #282D35;
+  color: white;    
 }
 
 .main-title {
@@ -77,3 +122,4 @@ main {
   letter-spacing: 0.1rem;
   line-height: 3rem;
 }
+
