@@ -49,5 +49,31 @@ nav {
   float: left;
 }
 
+/* Main component */
+main {
+  padding: 5rem 6rem;
+  background-image: url(../public/images/reactjs-logo2.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 13rem;
+  color: #2B283A;
+}
 
+.main-title {
+  font-size: 3rem ;
+}
 
+.main-facts {
+  padding: 2rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.main-facts ::marker {
+  color: #61DAFB;
+}
+
+.main-facts>li {
+  letter-spacing: 0.1rem;
+  line-height: 3rem;
+}
