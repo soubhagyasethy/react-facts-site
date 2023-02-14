@@ -13,7 +13,7 @@ This website contain some fun facts about React.
 To use this React app locally, you'll need to have Node.js and npm installed on your machine. Once you have those, you can follow these steps:
 1. Clone the repository:
 
-   ``` $ git clone https://github.com/soubhagyasethy/react-facts.git```
+   ``` $ git clone https://github.com/soubhagyasethy/react-facts-site.git```
  
 2. Navigate to the app's directory:
 
