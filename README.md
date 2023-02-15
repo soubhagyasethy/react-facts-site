@@ -8,6 +8,10 @@ This website contain some fun facts about React.
 
 ### Features
 - You can switch between dark mode and light mode.
+- Demo: 
+
+![React info site_Trim](https://user-images.githubusercontent.com/82697602/218969291-ae9d5fc4-5c2d-4a02-a13f-e5e1d48e7f03.gif)
+
 
 ### Usage 
 To use this React app locally, you'll need to have Node.js and npm installed on your machine. Once you have those, you can follow these steps:
